@@ -14,6 +14,7 @@ namespace tamagochi
             InitializeComponent();
             tamagochi = new StatsAndFunction();
             timer = new tamagochi.Entity.Timer(tamagochi, UpdateStat);
+
             timer.use();
         }
         private void UpdateStat()
